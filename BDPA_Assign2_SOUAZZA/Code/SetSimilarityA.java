@@ -44,7 +44,7 @@ public class SetSimilarityA {
 		/*Defining the number of lines to read, we start initially with a sample 		
 		 * of 100. The long is to define the id number of each line keeping in mind 		
 		 * that each line is considered as a document. The int can be changed depending on the file size*/
-		public Long ID = 1000L;
+		public Long ID = 1000L;//100 is PreProcessing_Input100
 		
 		// the mapper generates a value and key for each document id.
 		public void map(LongWritable key, Text value, Context context
